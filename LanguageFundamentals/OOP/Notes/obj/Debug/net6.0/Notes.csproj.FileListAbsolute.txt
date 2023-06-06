@@ -1,0 +1,15 @@
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\bin\Debug\net6.0\Notes.exe
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\bin\Debug\net6.0\Notes.deps.json
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\bin\Debug\net6.0\Notes.runtimeconfig.json
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\bin\Debug\net6.0\Notes.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\bin\Debug\net6.0\Notes.pdb
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.csproj.AssemblyReference.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.AssemblyInfoInputs.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.AssemblyInfo.cs
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.csproj.CoreCompileInputs.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\refint\Notes.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.pdb
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\Notes.genruntimeconfig.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\OOP\Notes\obj\Debug\net6.0\ref\Notes.dll

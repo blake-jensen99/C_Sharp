@@ -1,0 +1,15 @@
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net6.0\Puzzles.exe
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net6.0\Puzzles.deps.json
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net6.0\Puzzles.runtimeconfig.json
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net6.0\Puzzles.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\bin\Debug\net6.0\Puzzles.pdb
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.csproj.AssemblyReference.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.AssemblyInfoInputs.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.AssemblyInfo.cs
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.csproj.CoreCompileInputs.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\refint\Puzzles.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.pdb
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\Puzzles.genruntimeconfig.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\LanguageFundamentals\LanguageEssentials\Puzzles\obj\Debug\net6.0\ref\Puzzles.dll
