@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "wmLc61LPliWFJv/XA7NPmnMGZ36lfoaAAyvU6AJ2v6w=",
+  "Source": "FirstWebApp",
+  "BasePath": "_content/FirstWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstWebApp\\wwwroot",
+      "Source": "FirstWebApp",
+      "ContentRoot": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/FirstWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\FirstWebApp\\wwwroot\\css\\style.css",
+      "SourceId": "FirstWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/FirstWebApp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\FirstWebApp\\wwwroot\\images\\img-ixjkqmsvge43otbdj6grbaxy.png",
+      "SourceId": "FirstWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/FirstWebApp",
+      "RelativePath": "images/img-ixjkqmsvge43otbdj6grbaxy.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img-ixjkqmsvge43otbdj6grbaxy.png"
+    }
+  ]
+}

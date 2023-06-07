@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Countdown</title>
+</head>
+<body>
+
+    <div class="flex">
+        <div class="border">
+            <h1>Start Time</h1>
+            <h2>@ViewBag.CurrentTime</h2>
+        </div>
+        <div class="border">
+            <h1>End Time</h1>
+            <h2>@ViewBag.EndDate</h2>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <h1>Time Remaining</h1>
+        <h2>@ViewBag.Difference.Days Day(s), @ViewBag.Difference.Hours Hour(s), @ViewBag.Difference.Minutes Minute(s)</h2>
+        <h2>Remaining</h2>
+    </div>
+</body>
+</html>

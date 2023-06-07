@@ -1,0 +1,28 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Portfolio2
+build_property.RootNamespace = Portfolio2
+build_property.ProjectDir = c:\Users\Blake Jensen\Desktop\C_Sharp\ASPNET_Core\ASP_MVC_I\Portfolio2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Blake Jensen\Desktop\C_Sharp\ASPNET_Core\ASP_MVC_I\Portfolio2
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ASPNET_Core/ASP_MVC_I/Portfolio2/Views/Portfolio2/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvMlxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ASPNET_Core/ASP_MVC_I/Portfolio2/Views/Portfolio2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvMlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ASPNET_Core/ASP_MVC_I/Portfolio2/Views/Portfolio2/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvMlxQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

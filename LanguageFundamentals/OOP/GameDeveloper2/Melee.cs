@@ -8,7 +8,6 @@ public class Melee : Enemy
 
     public Melee(string n) : base (n, 120)
     {
-        
         AttackList = new List<Attack> {Punch, Kick, Tackle};
     }
 

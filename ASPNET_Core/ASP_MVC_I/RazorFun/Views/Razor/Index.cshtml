@@ -1,0 +1,16 @@
+
+<h1>Here are some delicious foods!</h1>
+
+@{
+    List<string> list = new List<string>() {"Apple Pie", "Pizza", "Cinnamon Rolls", "Lasagna", "Donuts", "Choclate Cake", "Burritso"};
+
+        foreach (string s in list)
+        {
+            string firstLetter = s.Substring(0,1);
+            if (firstLetter == "C")
+            {
+                <p style="color: red;">@s</p>
+            }
+            <p>@s</p>
+        }
+}

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "MMOoM8fq5PtL9Z2thOc2xGhLaHkmNLkkk6TsA8BI710=",
+  "Source": "Portfolio2",
+  "BasePath": "_content/Portfolio2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Portfolio2\\wwwroot",
+      "Source": "Portfolio2",
+      "ContentRoot": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\Portfolio2\\wwwroot\\",
+      "BasePath": "_content/Portfolio2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\Portfolio2\\wwwroot\\css\\style.css",
+      "SourceId": "Portfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\Portfolio2\\wwwroot\\",
+      "BasePath": "_content/Portfolio2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\Portfolio2\\wwwroot\\images\\img-ixjkqmsvge43otbdj6grbaxy.png",
+      "SourceId": "Portfolio2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Blake Jensen\\Desktop\\C_Sharp\\ASPNET_Core\\ASP_MVC_I\\Portfolio2\\wwwroot\\",
+      "BasePath": "_content/Portfolio2",
+      "RelativePath": "images/img-ixjkqmsvge43otbdj6grbaxy.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\img-ixjkqmsvge43otbdj6grbaxy.png"
+    }
+  ]
+}
