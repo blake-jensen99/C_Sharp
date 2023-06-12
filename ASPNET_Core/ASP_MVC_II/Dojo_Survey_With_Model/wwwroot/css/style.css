@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main {
+    border: solid black 2px;
+    padding: 50px;
+    width: 500px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    margin-right: 50px;
+}
+
+button {
+    width: min-content;
+    padding: 5px;
+}

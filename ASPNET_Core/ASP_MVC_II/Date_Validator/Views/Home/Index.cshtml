@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Date
+
+<div class="text-center">
+    <form asp-action="SetDate" asp-controller="Home" method="post">
+        <label asp-for="PastDate">Select a past date:</label>
+        <input asp-for="PastDate">
+        <input type="submit" value="Submit">
+        <br>
+        <span asp-validation-for="PastDate"></span>
+
+    </form>
+</div>

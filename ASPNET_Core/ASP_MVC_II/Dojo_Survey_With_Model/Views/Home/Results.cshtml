@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Results";
+}
+
+
+@model Survey
+
+
+<div class="flex">
+        <main class="main">
+            <h1>Submitted Info</h1>
+            <p>Name: @Model.Name</p>
+            <p>Dojo Location: @Model.Location</p>
+            <p>Favorite Language: @Model.Language</p>
+            @* <p>Comment: @Model.Comment</p> *@
+            @{
+                if(@Model.Comment == null) 
+                {
+                    <p>No Comment</p>
+                }
+                else
+                {
+                    <p>Comment: @Model.Comment</p>
+                }
+            }
+            <button><a href="/"> Go Back</a></button>
+        </main>
+    </div>

@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model User
+
+<div class="text-center">
+    <form asp-action="Register" asp-controller="Home" method="post" class=" d-flex flex-column align-items-start gap-5">
+        <div>
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control">
+            <span asp-validation-for="Email"></span>
+
+        </div>
+        <div>
+            <label asp-for="DOB" class="form-label">Date of Birth</label>
+            <input asp-for="DOB" class="form-control">
+            <span asp-validation-for="DOB"></span>
+
+        </div>
+        <div>
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" class="form-control">
+            <span asp-validation-for="Password"></span>
+
+        </div>
+        <div>
+            <label asp-for="FPN" class="form-label">Favorite Prime Number</label>
+            <input asp-for="FPN" class="form-control">
+            <span asp-validation-for="FPN"></span>
+
+        </div>
+        <button type="submit" class="btn btn-outline-success">Submit</button>
+    </form>
+</div>

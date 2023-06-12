@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Friend
+<div class="text-center">
+    <h1>My friend is: @Model.FirstName @Model.LastName</h1>
+    <h2>They are @Model.Age years old!</h2>
+    <h2>@Context.Session.GetString("Username") is logged in</h2>
+
+
+</div>

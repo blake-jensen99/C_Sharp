@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Survey
+
+<div class="flex">
+        <main class="main">
+            <form asp-action="Form" asp-controller="Home" method="POST">
+                <div>
+                    <label asp-for="Name">Your Name:</label>
+                    <input asp-for="Name">
+                    <br>
+                    <span asp-validation-for="Name"></span>
+                </div>
+                <div>
+                    <label asp-for="Location">Dojo Location:</label>
+                    <select asp-for="Location">
+                        <option value="San Jose">San Jose</option>
+                        <option value="Seattle">Seattle</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                    </select>
+                    <br>
+                    <span asp-validation-for="Location"></span>
+                </div>
+                <div>
+                    <label asp-for="Language">Favorite Language:</label>
+                    <select asp-for="Language">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="C#">C#</option>
+                        <br>
+                        <span asp-validation-for="Language"></span>
+                    </select>
+                </div>
+                <div>
+                    <label asp-for="Comment">Comment (optional):</label>
+                    <br>
+                    <textarea asp-for="Comment" cols="30" rows="10"></textarea>
+                    <br>
+                    <span asp-validation-for="Comment"></span>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </div>

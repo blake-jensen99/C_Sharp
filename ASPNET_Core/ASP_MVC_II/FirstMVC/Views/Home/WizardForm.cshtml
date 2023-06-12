@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Wizard Form";
+}
+
+@model HogwartsStudent
+
+<form asp-action="RegisterWizard" asp-asp-controller="Home" method="post">    
+    <label asp-for="Name">Your Name:</label>    
+    <input asp-for="Name"> 
+    <span asp-validation-for="Name"></span>  <!-- updated -->  
+    <label asp-for="House">House:</label>    
+    <select asp-for="House">  <!-- updated -->      
+        <option value="Gryffindor">Gryffindor</option>        
+        <option value="Ravenclaw">Ravenclaw</option>        
+        <option value="Slytherin">Slytherin</option>        
+        <option value="Hufflepuff">Hufflepuff</option>    
+    </select>    
+    <span asp-validation-for="House"></span>
+    <label asp-for="CurrentYear">Year:</label>    
+    <input asp-for="CurrentYear">  
+    <span asp-validation-for="CurrentYear"></span><!-- updated -->   
+    <input type="submit" value="Submit"/>
+</form>
+<h1>@Context.Session.GetInt32("Num") is the session int</h1>
+
+<form asp-action="AddOne" asp-controller="Home" method="post">
+    <input type="hidden" name="val" value="1">
+    <button type="submit">+1</button>
+</form>
