@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Monster
+
+<div class="text-center">
+    <form asp-action="CreateMonster" asp-controller="Home" method="post">
+        <label asp-for="Name"></label>
+        <input asp-for="Name">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Height"></label>
+        <input asp-for="Height">
+        <label asp-for="Description"></label>
+        <input asp-for="Description">
+        <button type="submit">Submit</button>
+    </form>
+    <a asp-action="AllMonsters">All Monsters</a>
+</div>

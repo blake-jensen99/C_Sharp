@@ -1,0 +1,25 @@
+@model Dish
+@{
+    ViewData["Title"] = @Model.Name;
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Name</h1>
+    <div class="d-flex justify-content-center gap-2">
+        <a asp-action="Index" asp-controller="Home">Home</a>
+        <p>|</p>
+        <a asp-action="Add" asp-controller="Home">Add A Dish</a>
+    </div>
+    <p>@Model.Name by @Model.Chef</p>
+    <hr>
+    <p>Description: @Model.Description</p>
+    <p>Calories: @Model.Calories</p>
+    <p>Tastiness: @Model.Tastiness</p>
+    <div class="mt-5 d-flex justify-content-between">
+        <form asp-action="DestroyDish" asp-controller="Home" asp-route-DishId="@Model.DishId" method="post">
+            <input type="submit" class="btn btn-outline-danger" value="Delete">
+        </form>
+        <button class="btn btn-outline-primary"><a asp-controller="Home" asp-action="EditDish" asp-route-id="@Model.DishId" style="text-decoration: none;">Edit Dish</a></button>
+    </div>
+
+</div>

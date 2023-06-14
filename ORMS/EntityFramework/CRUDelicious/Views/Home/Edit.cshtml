@@ -1,0 +1,57 @@
+@model Dish
+@{
+    ViewData["Title"] = @Model.Name;
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Name</h1>
+    <div class="d-flex justify-content-center gap-2">
+        <a asp-action="Index" asp-controller="Home">Home</a>
+        <p>|</p>
+        <a asp-action="Add" asp-controller="Home">Add A Dish</a>
+    </div>
+    <form asp-action="UpdateDish" asp-controller="Home" asp-route-id="@Model.DishId" method="post" class="text-start d-flex justify-content-around">
+        <div>
+            <label asp-for="Chef"></label>
+            <br>
+            <input asp-for="Chef">
+            <br>
+            <span asp-validation-for="Chef"></span>
+            <br>
+            <label asp-for="Name"></label>
+            <br>
+            <input asp-for="Name">
+            <br>
+            <span asp-validation-for="Name"></span>
+            <br>
+            <label asp-for="Calories"></label>
+            <br>
+            <input asp-for="Calories">
+            <br>
+            <span asp-validation-for="Calories"></span>
+        </div>
+        <div>
+            <label asp-for="Tastiness"></label>
+            <br>
+            <select name="Tastiness" class="mb-5 w-100">
+                <option hidden>Select one</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <span asp-validation-for="Tastiness"></span>
+            <br>
+            <button type="submit" class="mt-5 btn btn-outline-success">Submit</button>
+        </div>
+        <div>
+            <label asp-for="Description"></label>
+            <br>
+            <textarea name="Description"cols="30" rows="6" placeholder="@Model.Description"></textarea>
+            <br>
+            <span asp-validation-for="Description"></span>
+        </div>
+    </form>
+
+</div>

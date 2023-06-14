@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "One Monster";
+}
+
+@model Monster
+
+<div class="text-center">
+    <h1>@Model.Name</h1>
+    <h3>@Model.Height meters tall</h3>
+    <h3>@Model.Description</h3>
+    <hr>
+    <h1>Update Me!</h1>
+    <form asp-action="UpdateMonster" asp-controller="Home" asp-route-MonsterId="@Model.MonsterId" method="post">
+        <label asp-for="Name"></label>
+        <input asp-for="Name">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Height"></label>
+        <input asp-for="Height">
+        <label asp-for="Description"></label>
+        <input asp-for="Description">
+        <button type="submit">Submit</button>
+    </form>
+    <form asp-action="DestroyMonster" asp-controller="Home" asp-route-MonsterId="@Model.MonsterId" method="post">
+        <input type="submit" value="Delete">
+    </form>
+</div>

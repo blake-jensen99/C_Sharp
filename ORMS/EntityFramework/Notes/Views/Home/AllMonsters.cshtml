@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "All Monsters";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">All Monsters</h1>
+    @{
+        foreach (Monster m in @ViewBag.AllMonsters)
+        {
+            <h2>@m.Name</h2>
+            <h3>@m.Height meters tall</h3>
+            <h3>@m.Description</h3>
+            <a asp-action="ShowMonster" asp-route-id="@m.MonsterId">My Page</a>
+
+            <hr>
+        }
+    }
+
+    <h1>The Tallest Monster is @ViewBag.Tallest.Name</h1>
+</div>

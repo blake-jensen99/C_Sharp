@@ -1,0 +1,15 @@
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\bin\Debug\net6.0\LINQEruption.exe
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\bin\Debug\net6.0\LINQEruption.deps.json
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\bin\Debug\net6.0\LINQEruption.runtimeconfig.json
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\bin\Debug\net6.0\LINQEruption.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\bin\Debug\net6.0\LINQEruption.pdb
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.csproj.AssemblyReference.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.AssemblyInfoInputs.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.AssemblyInfo.cs
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.csproj.CoreCompileInputs.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\refint\LINQEruption.dll
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.pdb
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\LINQEruption.genruntimeconfig.cache
+C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\LINQ\LINQEruption\obj\Debug\net6.0\ref\LINQEruption.dll
