@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChefsAndDishes
 build_property.RootNamespace = ChefsAndDishes
-build_property.ProjectDir = C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\EntityFramework\ChefsAndDishes\
+build_property.ProjectDir = c:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\EntityFramework\ChefsAndDishes\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\EntityFramework\ChefsAndDishes
+build_property.MSBuildProjectDirectory = c:\Users\Blake Jensen\Desktop\C_Sharp\ORMS\EntityFramework\ChefsAndDishes
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Dish/AllDishes.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Dish/AllDishes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxBbGxEaXNoZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Dish/NewDish.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Dish/NewDish.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFxOZXdEaXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Home/Index.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Home/NewChef.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Home/NewChef.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdDaGVmLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Shared/Error.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/_ViewImports.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/_ViewStart.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Shared/_Layout.cshtml]
+[c:/Users/Blake Jensen/Desktop/C_Sharp/ORMS/EntityFramework/ChefsAndDishes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nfy0wyx8b9
