@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Dishes";
+}
+@model List<Dish>
+
+
+<div class="text-center">
+    <h1>Yum! Check out our tasty dishes!</h1>
+    <hr>
+    <table>
+        <th>Name</th>
+        <th>Chef</th>
+        <th>Tastiness</th>
+        <th>Calories</th>
+
+        @{
+            foreach(Dish dish in @Model)
+            {
+                <tr>
+                    <td>@dish.Name</td>
+                    <td>@dish.Creator.FirstName @dish.Creator.LastName</td>
+                    <td>@dish.Tastiness</td>
+                    <td>@dish.Calories</td>
+                </tr>
+            }
+        }
+
+    </table>
+
+</div>

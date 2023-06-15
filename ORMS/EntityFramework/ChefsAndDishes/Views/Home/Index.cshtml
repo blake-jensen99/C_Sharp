@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Chefs";
+#pragma warning disable CS8629
+}
+@model List<Chef>
+
+
+<div class="text-center">
+    <h1>Check out our roster of chefs!</h1>
+    <hr>
+    <table>
+        <th>Name</th>
+        <th>Age</th>
+        <th># of Dishes</th>
+
+        @{
+            foreach (Chef chef in @Model)
+            {
+                <tr>
+                    <td>@chef.FirstName @chef.LastName</td>
+                    @{TimeSpan? age = DateTime.Now - chef.DOB;
+                    int years = ((TimeSpan)age).Days / 365;}
+                    <td>@years</td>
+                    <td>@chef.AllDishes.Count</td>
+                </tr>
+            }
+        }
+
+    </table>
+
+</div>
