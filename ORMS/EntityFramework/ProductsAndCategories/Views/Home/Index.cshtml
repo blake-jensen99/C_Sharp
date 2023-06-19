@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+@model List<Product>
+
+<div class="text-center d-flex justify-content-around">
+    <div class="border-end border-3 border-success px-5">
+        <h1>New Product</h1>
+        @{
+            Product newProd = new Product();
+        }
+        @await Html.PartialAsync("_NewProduct", newProd)
+    </div>
+    <div>
+        <h1>All Products</h1>
+        <div class="text-start mt-5">
+            @{
+                foreach(Product p in @Model)
+                {
+                    <a asp-action="OneProd" asp-controller="Home" asp-route-id="@p.ProductId"><h3>@p.Name</h3></a>
+                    
+                }
+            }
+        </div>
+    </div>
+</div>

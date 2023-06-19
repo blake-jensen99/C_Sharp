@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "One Product";
+}
+
+@model Product
+
+@{
+    List<int> prodCatIdList = new List<int>();
+    foreach(Association a in Model.pAssociation)
+    {
+        prodCatIdList.Add(a.Category.CategoryId);
+    }
+}
+<div class="text-center">
+    <h1>@Model.Name</h1>
+    <div class="d-flex justify-content-around mt-5">
+        <div>
+            <h1>Categories</h1>
+            @{
+                foreach(Association a in Model.pAssociation)
+                {
+                    <p>@a.Category.Name</p>
+                }
+            }
+        </div>
+        <div>
+            <h1>Add Category</h1>
+            <form asp-action="AddCatToProd" asp-controller="Home" method="post">
+                <select name="CategoryId">
+                    @{
+                        foreach(Category cat in ViewBag.cats)
+                        {
+                            if(!prodCatIdList.Contains(cat.CategoryId))
+                            {
+                                <option value="@cat.CategoryId">@cat.Name</option>
+                            }
+                        }
+                    }
+                </select>
+                <input type="hidden" name="ProductId" value="@Model.ProductId">
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+</div>

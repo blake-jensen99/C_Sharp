@@ -1,0 +1,12 @@
+@model Category
+
+<form asp-action="CreateCategory" asp-controller="Category" method="post" class="d-flex flex-column gap-5 align-items-start text-start mt-5">
+    <div>
+        <label asp-for="Name"></label>
+        <br>
+        <input asp-for="Name">
+        <br>
+        <span asp-validation-for="Name"></span>
+    </div>
+    <button type="submit" class="btn btn-outline-primary">Create</button>
+</form>
