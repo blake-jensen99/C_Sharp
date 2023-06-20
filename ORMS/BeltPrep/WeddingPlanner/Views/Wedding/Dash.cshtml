@@ -30,6 +30,7 @@
                             if (wed.Creator.UserId == Context.Session.GetInt32("UserId"))
                             {
                                 <td>
+                                    <Button><a asp-action="EditWedding" asp-controller="Wedding" asp-route-id="@wed.WeddingId">Edit</a></Button>
                                     <form asp-action="DestroyWedding" asp-controller="Wedding">
                                         <input type="hidden" name="WeddingId" value="@wed.WeddingId">
                                         <Button type="submit">Delete</Button>
@@ -39,18 +40,21 @@
                             else
                             {
                                 bool contains = false;
+                                int ID = 0;
                                 foreach (Association ass in wed.Attendees)
                                 {
                                     if (ass.UserId == Context.Session.GetInt32("UserId"))
                                     {
                                         contains = true;
+                                        ID = ass.AssociationId;
                                     }
                                 }
                                 if (contains)
                                 {
                                     <td>
+                                        
                                         <form asp-action="UNRSVP" asp-controller="Wedding" method="post">
-                                            <input type="hidden" name="WeddingId" value="@wed.WeddingId">
+                                            <input type="hidden" name="AssociationId" value="@ID">
                                             <button type="submit">Un-RSVP</button>
                                         </form>
                                     </td>

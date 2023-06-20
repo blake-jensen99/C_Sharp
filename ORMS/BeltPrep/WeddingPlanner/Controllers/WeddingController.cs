@@ -73,7 +73,7 @@ public class WeddingController : Controller
     [HttpPost("weddings/unrsvp")]
     public IActionResult UNRSVP(Association unrsvp)
     {
-        Association? assToDelete = _context.Associations.Include(a => a.Wedding).SingleOrDefault(w => w.WeddingId == unrsvp.WeddingId);
+        Association? assToDelete = _context.Associations.SingleOrDefault(w => w.AssociationId== unrsvp.AssociationId);
         _context.Associations.Remove(assToDelete);
         _context.SaveChanges();
         return RedirectToAction("Dash");
@@ -87,6 +87,34 @@ public class WeddingController : Controller
         _context.Weddings.Remove(wedToDelete);
         _context.SaveChanges();
         return RedirectToAction("Dash");
+    }
+
+    [SessionCheck]
+    [HttpGet("weddings/edit/{id}")]
+    public IActionResult EditWedding(int id)
+    {
+        Wedding? OneWedding = _context.Weddings.FirstOrDefault(w => w.WeddingId == id);
+        return View("EditWedding", OneWedding);
+    }
+
+    [HttpPost("weddings/update/{id}")]
+    public IActionResult UpdateWedding(Wedding newWedding, int id)
+    {
+        Wedding? OldWedding = _context.Weddings.FirstOrDefault(w => w.WeddingId == id);
+        if(ModelState.IsValid)
+        {
+            OldWedding.WedderOne = newWedding.WedderOne;
+            OldWedding.WedderTwo = newWedding.WedderTwo;
+            OldWedding.Date = newWedding.Date;
+            OldWedding.Address = newWedding.Address;
+            OldWedding.UpdatedAt = DateTime.Now;
+
+            _context.SaveChanges();
+            return RedirectToAction("Dash");
+        }
+        else {
+            return View("EditWedding", OldWedding);
+        }
     }
 
 
